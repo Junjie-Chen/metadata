@@ -16,3 +16,9 @@ function logSpecification(target: typeof Plane): void {
     console.log(`model: ${model}`);
   }
 }
+
+function specification(model: string): Function {
+  return function(target: any, key: string): void {
+    Reflect.defineMetadata('model', model, target, key);
+  };
+}
