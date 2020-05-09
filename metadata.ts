@@ -4,6 +4,7 @@ import 'reflect-metadata';
 class Plane {
   name: string = 'Boeing 777';
 
+  @specification('777-300ER')
   pilot(): void {
     console.log('Plane is flying');
   }
