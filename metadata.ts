@@ -1,5 +1,6 @@
 import 'reflect-metadata';
 
+@logSpecification
 class Plane {
   name: string = 'Boeing 777';
 
