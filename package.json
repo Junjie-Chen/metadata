@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Junjie-Chen/metadata/issues"
   },
-  "homepage": "https://github.com/Junjie-Chen/metadata#readme"
+  "homepage": "https://github.com/Junjie-Chen/metadata#readme",
+  "dependencies": {
+    "reflect-metadata": "^0.1.13"
+  }
 }
